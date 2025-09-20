@@ -2,9 +2,303 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 6f31461c-1ce3-4669-a628-d5dc5fed8080)
+	(uuid "6f31461c-1ce3-4669-a628-d5dc5fed8080")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 33.02 125.73)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ea7dbee-1472-42a6-80ea-0a29f8fb746e")
+		(property "Sheetname" "DRIVE HV-550"
+			(at 33.02 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRIVE HV-550.kicad_sch"
+			(at 33.02 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 24.13)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "182b60d9-b4a1-43fd-9b61-402a125a94b2")
+		(property "Sheetname" "DISPLAY"
+			(at 78.74 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DISPLAY.kicad_sch"
+			(at 78.74 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 24.13)
+		(size 33.02 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e587e05-a25c-4fa2-aac4-623eb9b4720a")
+		(property "Sheetname" "ECU"
+			(at 30.48 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ECU.kicad_sch"
+			(at 30.48 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 62.23)
+		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83c1ec6e-e7f8-4b3f-abe9-b7024bdd954a")
+		(property "Sheetname" "BMS"
+			(at 30.48 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 30.48 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 62.23)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9362d281-ba08-4ca8-a466-d1188087f4e2")
+		(property "Sheetname" "SKIDOO ELECTRICAL"
+			(at 80.01 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SKIDOO ELECTRICAL.kicad_sch"
+			(at 80.01 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 92.71)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdf6ae9d-848f-410c-8736-1868ba0a4769")
+		(property "Sheetname" "DRIVE HV-500"
+			(at 31.75 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRIVE HV-500.kicad_sch"
+			(at 31.75 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 160.02)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f281bac8-cb00-4277-b4c2-0b022c1ebf87")
+		(property "Sheetname" "Shutdown"
+			(at 34.29 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shutdown.kicad_sch"
+			(at 34.29 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
