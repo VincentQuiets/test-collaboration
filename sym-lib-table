@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HYBRID_SYMBOLS")(type "KiCad")(uri "${KIPRJMOD}/HYBRID_SYMBOLS.kicad_sym")(options "")(descr ""))
+)

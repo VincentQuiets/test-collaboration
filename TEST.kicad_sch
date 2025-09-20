@@ -175,7 +175,7 @@
 	)
 	(sheet
 		(at 80.01 62.23)
-		(size 30.48 21.59)
+		(size 30.48 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -199,12 +199,52 @@
 			)
 		)
 		(property "Sheetfile" "SKIDOO ELECTRICAL.kicad_sch"
-			(at 80.01 84.4046 0)
+			(at 80.01 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "12V_CONTROL" input
+			(at 80.01 72.39 180)
+			(uuid "82ca8a16-517f-4144-b2fc-3747d980b7a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 96.4389 90.17 270)
+			(uuid "1c115c51-bbb5-44e2-94c8-57285e4783f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" output
+			(at 94.0259 62.23 90)
+			(uuid "41a38660-3f78-480d-adcc-6b2adfa6145d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_ACCESSORIES" output
+			(at 99.06 62.23 90)
+			(uuid "d59cfbfc-0fc0-48f2-9370-8beec84fa569")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
