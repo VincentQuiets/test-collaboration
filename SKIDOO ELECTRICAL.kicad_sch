@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "7e46455b-0470-4f07-bd5e-be6b1a38d542")
+	(uuid "02eb1143-3a29-43ae-b685-aef13884218a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BRB_1"

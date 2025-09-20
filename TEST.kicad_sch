@@ -81,6 +81,46 @@
 				(justify left top)
 			)
 		)
+		(pin "12V" input
+			(at 88.9 24.13 90)
+			(uuid "d9b5b7b1-6980-4684-a9b8-ea2cbf3c358d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 93.98 48.26 270)
+			(uuid "bf401182-d13a-46c6-9854-9245c0547a17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN-B-L" bidirectional
+			(at 78.74 33.02 180)
+			(uuid "1a4c9275-7080-4d10-bd9e-fbd0d8be1315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN-B-H" bidirectional
+			(at 78.74 36.83 180)
+			(uuid "b4d75308-3b6b-4993-8404-695832a0a3b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "TEST"
 				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
