@@ -1218,6 +1218,17 @@
 		)
 		(uuid "0944ec4b-3a47-4807-9bb4-2bf71fc1c8ac")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 114.3 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e93911b-71e0-46e8-84fc-3dba6043eaba")
+	)
 	(symbol
 		(lib_id "HYBRID_SYMBOLS:MXS_STRADA")
 		(at 114.3 72.39 0)
@@ -1228,7 +1239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27b48e4b-8f7d-402e-b8b9-9aa15b37de03")
-		(property "Reference" "U3"
+		(property "Reference" "U?"
 			(at 113.665 53.34 0)
 			(effects
 				(font
@@ -1338,7 +1349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64f8e948-b7ab-40db-be90-a0f7a6d1af95")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -1442,7 +1453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac5418c3-1a94-4619-8768-f815b7e1316a")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 164.7825 78.74 0)
 			(effects
 				(font
