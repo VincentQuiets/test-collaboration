@@ -5,6 +5,56 @@
 	(uuid "6f31461c-1ce3-4669-a628-d5dc5fed8080")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 16.51) (xy 113.03 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53286baf-830e-41df-be16-ed71c92bfa49")
+	)
+	(wire
+		(pts
+			(xy 88.9 24.13) (xy 88.9 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b3c2a9-e7c4-4524-bbc1-07dea8e0fa19")
+	)
+	(wire
+		(pts
+			(xy 104.14 54.61) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7f91c6-b03b-4e2b-bdd9-61fbe502acb6")
+	)
+	(wire
+		(pts
+			(xy 113.03 54.61) (xy 104.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9612c2c7-e68c-485d-ad1e-c4b3244a65de")
+	)
+	(wire
+		(pts
+			(xy 113.03 16.51) (xy 113.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981f02cc-f55a-40ce-a6c2-f39a1ecfcb19")
+	)
 	(sheet
 		(at 33.02 125.73)
 		(size 30.48 24.13)
@@ -215,6 +265,16 @@
 				(justify right)
 			)
 		)
+		(pin "GND" input
+			(at 58.42 83.82 270)
+			(uuid "82fe6031-5771-4cf8-a337-f5dc12f630f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "TEST"
 				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
@@ -278,7 +338,7 @@
 			)
 		)
 		(pin "12V" output
-			(at 94.0259 62.23 90)
+			(at 104.14 62.23 90)
 			(uuid "41a38660-3f78-480d-adcc-6b2adfa6145d")
 			(effects
 				(font
