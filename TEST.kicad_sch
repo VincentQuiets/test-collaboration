@@ -205,6 +205,16 @@
 				(justify left top)
 			)
 		)
+		(pin "12V" input
+			(at 44.45 62.23 90)
+			(uuid "9ba513a6-f00a-4ca1-b6ac-437f2f797886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "TEST"
 				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"

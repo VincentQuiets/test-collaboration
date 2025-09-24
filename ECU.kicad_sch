@@ -544,7 +544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb552a0c-9abf-4c4c-8376-db1a3fe3d463")
-		(property "Reference" "K1"
+		(property "Reference" "K?"
 			(at 140.97 59.69 90)
 			(effects
 				(font
@@ -613,6 +613,12 @@
 			(uuid "dbc41372-3a0e-4e88-9b0d-f682f00a16bd")
 		)
 		(instances
+			(project "TEST"
+				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080/4e587e05-a25c-4fa2-aac4-623eb9b4720a"
+					(reference "K?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/ae51d245-8015-483d-be59-5a0db9fda221"
 					(reference "K1")
