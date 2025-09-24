@@ -534,6 +534,68 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01192853-02ac-4a87-a1b9-49b48acaf227")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e0fd86-f8c7-4796-b4f1-c0681cfabeb0")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef7c62c-8409-4faa-a15f-dfb8e189a8f5")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 133.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ff677d-c5b4-4691-9536-ad2747bb007f")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 163.83 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52a59a5f-1b8a-48f5-8c27-06e30fbe518b")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 121.92 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a00e6ad-fa29-49c3-a4a2-6b39075dc1d9")
+	)
 	(symbol
 		(lib_id "Relay:Relay_DPDT")
 		(at 140.97 80.01 270)

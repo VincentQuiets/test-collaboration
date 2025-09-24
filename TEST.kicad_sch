@@ -5,6 +5,22 @@
 	(uuid "6f31461c-1ce3-4669-a628-d5dc5fed8080")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 88.9 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28ea29f3-a65a-478f-b92c-81f9f5750b55")
+	)
+	(wire
+		(pts
+			(xy 45.72 16.51) (xy 88.9 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1df60b-c11d-4374-9cb2-11230b29800d")
+	)
 	(wire
 		(pts
 			(xy 88.9 16.51) (xy 113.03 16.51)
@@ -13,7 +29,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "53286baf-830e-41df-be16-ed71c92bfa49")
+		(uuid "24c247de-6aa0-44dd-b302-7467e9a2d19a")
 	)
 	(wire
 		(pts
@@ -54,6 +70,16 @@
 			(type default)
 		)
 		(uuid "981f02cc-f55a-40ce-a6c2-f39a1ecfcb19")
+	)
+	(wire
+		(pts
+			(xy 45.72 24.13) (xy 45.72 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9470b43-f719-4de4-9966-9e3a3ba5a50b")
 	)
 	(sheet
 		(at 33.02 125.73)
@@ -211,6 +237,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "12V" input
+			(at 45.72 24.13 90)
+			(uuid "e2424084-3160-4aaf-9f22-dbab644d8acf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 54.61 48.26 270)
+			(uuid "a75106ee-dd19-49ed-a871-d12f84190725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
