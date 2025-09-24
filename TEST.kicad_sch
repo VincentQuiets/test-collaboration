@@ -445,6 +445,26 @@
 				(justify left top)
 			)
 		)
+		(pin "12V" input
+			(at 52.07 92.71 90)
+			(uuid "88d8062f-51dc-4a67-85c6-70cb3cfe671d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 57.15 116.84 270)
+			(uuid "4d3fc29f-9c95-41e3-aa49-386748618cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "TEST"
 				(path "/6f31461c-1ce3-4669-a628-d5dc5fed8080"
